@@ -4,12 +4,13 @@ $username = "stellaaquino";
 $password = "stpa";
 $dbname = "menagerie";
 
-$link = mysqli_connect ("localhost", "stellaaquino", "stpa", "menagerie");
+$name = $_GET['name'];
+
+$link = mysqli_connect ($servername, $username, $password, $dbname);
 require("secondhomepage.html");
+$result = mysqli_query($link, "SELECT * FROM pet ORDER BY name DESC");
 
-$query="DELETE FROM pet WHERE name='$name';
 
-print ".$name. "has been successfully deleted";
-mysqli_query ( $link, $query );
+
 
 ?>

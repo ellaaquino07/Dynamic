@@ -1,8 +1,9 @@
-<html>
 <?php
 require("secondhomepage.html");
 ?>
+<html>
 <form method="POST" action="insert2.php">
+<p class="intro">ADD: Add new pet.</p><br>
 <p class="intro">
 	Name: <input type="text" name="name">
 </p>
@@ -16,8 +17,8 @@ require("secondhomepage.html");
 </p>
 <br>
 <p class="intro">
-	Female: <input type="radio" name="sex">
-	Male: <input type="radio" name="sex">
+	Female<input type="radio" name="sex" value="female">
+	Male<input type="radio" name="sex" value="male">
 </p>
 <br>
 <p class="intro">
