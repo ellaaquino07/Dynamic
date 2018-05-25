@@ -1,0 +1,55 @@
+/*ella's css*/
+body {
+	 height: auto;
+	 background: linear-gradient(to bottom, #000066 0%, #669999 86%)
+}
+a:hover {
+    color: cyan;
+}
+
+h1.intro {
+    font-weight: bold;
+    font-family: arial;
+    text-shadow: 3px 2px cyan;
+    letter-spacing: 3px;
+ }
+p.intro {
+	font-weight: bold;
+    font-family: arial;
+    word-spacing: 1cm;
+    letter-spacing: 2px;
+}
+p.aboutus {
+	font-weight: bold;
+    font-family: arial;
+    word-spacing: 1cm;
+    letter-spacing: 2px;
+    color:cyan;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+   }
+div.parag{
+	margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 400px;
+    margin-left: 20px;
+}

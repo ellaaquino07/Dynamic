@@ -1,0 +1,60 @@
+<html>
+<head>
+    <style>
+    body {
+    font-family: Arial;
+}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    opacity: 0.8;
+}
+.container {
+    padding: 16px;
+}  
+    </style>
+    
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<p class="intro">
+<a href="homepage.html">Home</a>
+<a href="aboutus.html">About Us</a>
+<a href="login.html">Log-in </a>
+</p>
+<hr>
+<h1 class="intro">Ella's Blog</h1>
+    <h2>Login Form</h2>
+<form method="GET" action="connect2.php">
+<p>
+  <div class="container">
+    <label for="username"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" required>
+
+    <label for="password"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+   </div>
+</form>
+
+</body>
+<html>
